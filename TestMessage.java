@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import org.junit.Assert;
 
-public class TestMessage {
+public class TestMessage{
 
 	
 		@Test 
@@ -13,8 +13,7 @@ public class TestMessage {
 			Message m1 = new Message();
 			String act=m1.sayHello();
 			Assert.assertEquals("Hello", act);
-			}
-
+			
 	}
 
 
